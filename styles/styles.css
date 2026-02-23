@@ -61,8 +61,10 @@ img {
 
 nav {
   display: flex;
+  flex: 1;
   align-items: center;
-  gap: 1.5rem;
+  justify-content: space-between;
+  margin-left: 1.5rem;
 }
 
 .link-list-1,
